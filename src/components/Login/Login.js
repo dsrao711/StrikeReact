@@ -2,6 +2,7 @@ import { CardContent, Grid, Switch, TextField, makeStyles, Card } from '@materia
 import React,{useState} from 'react';  
 import {Link} from 'react-router-dom';
 import './Login.css';
+
 import img from '../../assets/Login.png' ;
 
 
@@ -38,11 +39,11 @@ function Login() {
       <Card className="card"  raised={true} style={{maxWidth:'95%'}}>
         <CardContent>
         <Grid container>
-          <Grid item sm={6}  >
+          <Grid item md={6}  >
 
             <img className="image" src={img}/>
           </Grid>
-          <Grid item sm={6}>
+          <Grid item md={6}>
             <div class="main ">
               <p class="sign" align="center">Sign in</p>
               <form class="form1">
